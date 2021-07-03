@@ -1,0 +1,204 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.header-top {
+	top: 0;
+	background-color: #f3f3f3;
+	position: fixed;
+	box-shadow: 0 2px 6px 0 rgb(0 0 0 / 20%);
+	padding: 10px 0;
+	width: 100%;
+	
+}
+
+h2 {
+	font-size: 28px;
+	color: #76cc9c;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 400;
+
+}
+span {
+	color: #e4664f;
+	font-family: 'Otomanopee One', sans-serif;
+
+}
+
+p {
+	font-size: 50px;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.container {
+	width: 1015px;
+	margin-top: 150px;
+	margin: 0 auto;
+	transform: translateY(150px);
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+	background-color: #fff;
+	padding: 68px 24px 40px 24px;
+
+}
+
+.container .row {
+	max-width: 100%;
+
+
+}
+
+.container .row .profile {
+
+	display: flex;
+	flex-wrap: wrap ;
+	justify-content: flex-start ;
+	/*text-align: center;*/
+	margin-left: 40px;
+}
+
+.container .profile-img {
+	max-width: 40%;
+	margin-right: 30px;
+
+}
+
+.container .profile img {
+	width: 100%;
+	height: 300px;
+	box-shadow: 0px 0px 4px 1px #ccc;
+	object-fit: cover;
+
+}
+
+.container .content {
+	width: 468px;
+}
+
+.container .content .title-hello {
+	    padding: 8px 20px;
+    border-radius: 2px;
+    background-color: #e4664f;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container .color-icon {
+	color: red;
+}
+
+.container .content .title-hello:after {
+	content: '';
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 10px;
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 0 8px 8px;
+    border-left-color: #f16a52;
+}
+
+.container .info-title {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	border-bottom: 1px solid #ccc;
+
+}
+
+a {
+	 display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-shadow: 0.2px 0.2px 0.4px #44227bd1;
+    color: black;
+    margin-bottom: 15px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+ a:hover {
+ 	color: #76cc9c;
+ }
+
+i {
+	margin-right: 10px;
+}
+ul {
+	list-style-type: none;
+	line-height: 2;
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 15px;
+
+}
+.style-1 {
+	font-weight: bold;
+	    font-weight: 600;
+    color: #5a5a5af2;
+    margin-left: -35px;
+}
+
+.style-2 {
+	margin-left: 50px;
+}
+
+.container .info-me {
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+/*footer*/
+
+footer {
+	width: 100%;
+	/*margin: 0;*/
+
+}
+
+.footer .container {
+	background-color: #D83A56;
+	margin-bottom: 200px;
+}
+
+.footer .container {
+	padding: 0 24px;
+}
+
+.footer ul {
+	height: 60px;
+	display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 600px;
+
+}
+
+.footer ul li  a{
+	text-decoration: none;
+	margin: 0;
+	
+
+}
+
+.fa {
+  font-size: 20px !important ;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.fa:hover {
+    color: #76cc9c;
+}
+
+
